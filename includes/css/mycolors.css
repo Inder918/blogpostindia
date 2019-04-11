@@ -1,0 +1,100 @@
+
+.left{float:left}.right{float:right}
+.transparent,.hover-none:hover{background-color:transparent}
+.hover-none:hover{box-shadow:none}
+.text-center{text-align: center;}
+/*========================animations===========================*/
+.animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.animate-top{position:relative;animation:animatetop 0.8s}@keyframes animatetop{from{top:-500px;opacity:0} to{top:0;opacity:1}}
+.animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-500px;opacity:0} to{left:0;opacity:1}}
+.animate-right{position:relative;animation:animateright 0.8s}@keyframes animateright{from{right:-500px;opacity:0} to{right:0;opacity:1}}
+.animate-bottom{position:relative;animation:animatebottom 0.8s}@keyframes animatebottom{from{bottom:-500px;opacity:0} to{bottom:0;opacity:1}}
+.animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.animate-input{transition:width 0.4s ease-in-out}.animate-input:focus{width:100%}
+
+/*=====================colors==================*/
+.amber,.hover-amber:hover{color:#000;background-color:#ffc107}
+.aqua,.hover-aqua:hover{color:#000;background-color:#00ffff}
+.blue,.hover-blue:hover{color:#fff;background-color:#2196F3}
+.light-blue,.hover-light-blue:hover{color:#000;background-color:#87CEEB}
+.brown,.hover-brown:hover{color:#fff;background-color:#795548}
+.cyan,.hover-cyan:hover{color:#000;background-color:#00bcd4}
+.blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover{color:#fff;background-color:#607d8b}
+.green,.hover-green:hover{color:#fff;background-color:#4CAF50}
+.light-green,.hover-light-green:hover{color:#000;background-color:#8bc34a}
+.indigo,.hover-indigo:hover{color:#fff;background-color:#3f51b5}
+.khaki,.hover-khaki:hover{color:#000;background-color:#f0e68c}
+.lime,.hover-lime:hover{color:#000;background-color:#cddc39}
+.orange,.hover-orange:hover{color:#000;background-color:#ff9800}
+.deep-orange,.hover-deep-orange:hover{color:#fff;background-color:#ff5722}
+.pink,.hover-pink:hover{color:#fff;background-color:#e91e63}
+.purple,.hover-purple:hover{color:#fff;background-color:#9c27b0}
+.deep-purple,.hover-deep-purple:hover{color:#fff;background-color:#673ab7}
+.red,.hover-red:hover{color:#fff;background-color:#f44336}
+.sand,.hover-sand:hover{color:#000;background-color:#fdf5e6}
+.teal,.hover-teal:hover{color:#fff;background-color:#009688}
+.yellow,.hover-yellow:hover{color:#000;background-color:#ffeb3b}
+.white,.hover-white:hover{color:#000;background-color:#fff}
+.black,.hover-black:hover{color:#fff;background-color:#000}
+.grey,.hover-grey:hover,.gray,.hover-gray:hover{color:#000;background-color:#9e9e9e}
+.light-grey,.hover-light-grey:hover,.light-gray,.hover-light-gray:hover{color:#000;background-color:#f1f1f1}
+.dark-grey,.hover-dark-grey:hover,.dark-gray,.hover-dark-gray:hover{color:#fff;background-color:#616161}
+.pale-red,.hover-pale-red:hover{color:#000;background-color:#ffdddd}
+.pale-green,.hover-pale-green:hover{color:#000;background-color:#ddffdd}
+.pale-yellow,.hover-pale-yellow:hover{color:#000;background-color:#ffffcc}
+.pale-blue,.hover-pale-blue:hover{color:#000;background-color:#ddffff}
+.text-amber,.hover-text-amber:hover{color:#ffc107}
+.text-aqua,.hover-text-aqua:hover{color:#00ffff}
+.text-blue,.hover-text-blue:hover{color:#2196F3}
+.text-light-blue,.hover-text-light-blue:hover{color:#87CEEB}
+.text-brown,.hover-text-brown:hover{color:#795548}
+.text-cyan,.hover-text-cyan:hover{color:#00bcd4}
+.text-blue-grey,.hover-text-blue-grey:hover,.text-blue-gray,.hover-text-blue-gray:hover{color:#607d8b}
+.text-green,.hover-text-green:hover{color:#4CAF50}
+.text-light-green,.hover-text-light-green:hover{color:#8bc34a}
+.text-indigo,.hover-text-indigo:hover{color:#3f51b5}
+.text-khaki,.hover-text-khaki:hover{color:#b4aa50}
+.text-lime,.hover-text-lime:hover{color:#cddc39}
+.text-orange,.hover-text-orange:hover{color:#ff9800}
+.text-deep-orange,.hover-text-deep-orange:hover{color:#ff5722}
+.text-pink,.hover-text-pink:hover{color:#e91e63}
+.text-purple,.hover-text-purple:hover{color:#9c27b0}
+.text-deep-purple,.hover-text-deep-purple:hover{color:#673ab7}
+.text-red,.hover-text-red:hover{color:#f44336}
+.text-sand,.hover-text-sand:hover{color:#fdf5e6}
+.text-teal,.hover-text-teal:hover{color:#009688}
+.text-yellow,.hover-text-yellow:hover{color:#d2be0e}
+.text-white,.hover-text-white:hover{color:#fff}
+.text-black,.hover-text-black:hover{color:#000}
+.text-grey,.hover-text-grey:hover,.text-gray,.hover-text-gray:hover{color:#757575}
+.text-light-grey,.hover-text-light-grey:hover,.text-light-gray,.hover-text-light-gray:hover{color:#f1f1f1}
+.text-dark-grey,.hover-text-dark-grey:hover,.text-dark-gray,.hover-text-dark-gray:hover{color:#3a3a3a}
+.border-amber,.hover-border-amber:hover{border-color:#ffc107}
+.border-aqua,.hover-border-aqua:hover{border-color:#00ffff}
+.border-blue,.hover-border-blue:hover{border-color:#2196F3}
+.border-light-blue,.hover-border-light-blue:hover{border-color:#87CEEB}
+.border-brown,.hover-border-brown:hover{border-color:#795548}
+.border-cyan,.hover-border-cyan:hover{border-color:#00bcd4}
+.border-blue-grey,.hover-border-blue-grey:hover,.border-blue-gray,.hover-border-blue-gray:hover{border-color:#607d8b}
+.border-green,.hover-border-green:hover{border-color:#4CAF50}
+.border-light-green,.hover-border-light-green:hover{border-color:#8bc34a}
+.border-indigo,.hover-border-indigo:hover{border-color:#3f51b5}
+.border-khaki,.hover-border-khaki:hover{border-color:#f0e68c}
+.border-lime,.hover-border-lime:hover{border-color:#cddc39}
+.border-orange,.hover-border-orange:hover{border-color:#ff9800}
+.border-deep-orange,.hover-border-deep-orange:hover{border-color:#ff5722}
+.border-pink,.hover-border-pink:hover{border-color:#e91e63}
+.border-purple,.hover-border-purple:hover{border-color:#9c27b0}
+.border-deep-purple,.hover-border-deep-purple:hover{border-color:#673ab7}
+.border-red,.hover-border-red:hover{border-color:#f44336}
+.border-sand,.hover-border-sand:hover{border-color:#fdf5e6}
+.border-teal,.hover-border-teal:hover{border-color:#009688}
+.border-yellow,.hover-border-yellow:hover{border-color:#ffeb3b}
+.border-white,.hover-border-white:hover{border-color:#fff}
+.border-black,.hover-border-black:hover{border-color:#000}
+.border-grey,.hover-border-grey:hover,.border-gray,.hover-border-gray:hover{border-color:#9e9e9e}
+.border-light-grey,.hover-border-light-grey:hover,.border-light-gray,.hover-border-light-gray:hover{border-color:#f1f1f1}
+.border-dark-grey,.hover-border-dark-grey:hover,.border-dark-gray,.hover-border-dark-gray:hover{border-color:#616161}
+.border-pale-red,.hover-border-pale-red:hover{border-color:#ffe7e7}.border-pale-green,.hover-border-pale-green:hover{border-color:#e7ffe7}
+.border-pale-yellow,.hover-border-pale-yellow:hover{border-color:#ffffcc}.border-pale-blue,.hover-border-pale-blue:hover{border-color:#e7ffff}

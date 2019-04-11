@@ -1,0 +1,29 @@
+[17-Jan-2019 09:30:51 UTC] PHP Warning:  require_once(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/c8fbx4j1cckj/public_html/test.php on line 3
+[17-Jan-2019 09:30:51 UTC] PHP Warning:  require_once(https://blogpostindia.com/includes/html/header.php): failed to open stream: no suitable wrapper could be found in /home/c8fbx4j1cckj/public_html/test.php on line 3
+[17-Jan-2019 09:30:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'https://blogpostindia.com/includes/html/header.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c8fbx4j1cckj/public_html/test.php on line 3
+[17-Jan-2019 09:31:38 UTC] PHP Warning:  require_once(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/c8fbx4j1cckj/public_html/test.php on line 3
+[17-Jan-2019 09:31:38 UTC] PHP Warning:  require_once(https://blogpostindia.com/): failed to open stream: no suitable wrapper could be found in /home/c8fbx4j1cckj/public_html/test.php on line 3
+[17-Jan-2019 09:31:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'https://blogpostindia.com/' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c8fbx4j1cckj/public_html/test.php on line 3
+[06-Feb-2019 17:30:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/c8fbx4j1cckj/public_html/payment.php on line 86
+[06-Feb-2019 17:32:30 UTC] PHP Notice:  Use of undefined constant includes - assumed 'includes' in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Notice:  Use of undefined constant html - assumed 'html' in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Warning:  A non-numeric value encountered in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Warning:  A non-numeric value encountered in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Warning:  Division by zero in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Notice:  Use of undefined constant header - assumed 'header' in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Warning:  A non-numeric value encountered in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Warning:  Division by zero in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Warning:  require_once(NANphp): failed to open stream: No such file or directory in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'NANphp' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Notice:  Use of undefined constant includes - assumed 'includes' in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Notice:  Use of undefined constant html - assumed 'html' in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Warning:  A non-numeric value encountered in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Warning:  A non-numeric value encountered in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Warning:  Division by zero in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Notice:  Use of undefined constant header - assumed 'header' in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Warning:  A non-numeric value encountered in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Warning:  Division by zero in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Warning:  require_once(NANphp): failed to open stream: No such file or directory in /home/c8fbx4j1cckj/public_html/payment.php on line 2
+[06-Feb-2019 17:32:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'NANphp' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c8fbx4j1cckj/public_html/payment.php on line 2
